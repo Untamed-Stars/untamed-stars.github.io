@@ -1,0 +1,188 @@
+/* ================================
+   UNTAMED STARS
+   Eclipse Theme
+================================ */
+
+:root {
+    --background: #0c0c0c;
+    --surface: #171717;
+    --panel: #222222;
+
+    --orange: #9a5835;
+    --orange-bright: #d8894d;
+
+    --text: #f0e9e1;
+    --muted: #9b9691;
+}
+
+
+/* ================================
+   RESET
+================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+
+/* ================================
+   NAVIGATION
+================================ */
+
+nav {
+    height: 70px;
+    padding: 0 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--surface);
+    border-bottom: 1px solid #292929;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: var(--orange-bright);
+}
+
+
+/* ================================
+   MAIN
+================================ */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+
+/* ================================
+   HEADINGS
+================================ */
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+
+/* ================================
+   ACCENT
+================================ */
+
+.accent {
+    color: var(--orange-bright);
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+
+.button {
+    display: inline-block;
+
+    padding: 0.8rem 1.5rem;
+
+    background: var(--orange);
+    color: var(--text);
+
+    text-decoration: none;
+
+    border: 1px solid var(--orange);
+    border-radius: 3px;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.button:hover {
+    background: var(--orange-bright);
+    border-color: var(--orange-bright);
+}
+
+
+/* ================================
+   PANELS
+================================ */
+
+.panel {
+    background: var(--panel);
+
+    border: 1px solid #303030;
+    border-radius: 4px;
+
+    padding: 2rem;
+}
+
+
+/* ================================
+   TEXT
+================================ */
+
+p {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+    padding: 2rem 3rem;
+
+    border-top: 1px solid #292929;
+
+    color: var(--muted);
+    font-size: 0.8rem;
+
+    text-align: center;
+}
