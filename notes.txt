@@ -1,0 +1,10 @@
+| Role                 | Colour       | Hex       |
+| -------------------- | ------------ | --------- |
+| Background           | Near Black   | `#0C0C0C` |
+| Secondary Background | Charcoal     | `#171717` |
+| Panels               | Dark Grey    | `#222222` |
+| Primary Accent       | Burnt Orange | `#9A5835` |
+| Bright Accent        | Amber        | `#D8894D` |
+| Highlight            | Pale Gold    | `#E8C9A8` |
+| Main Text            | Warm White   | `#F0E9E1` |
+| Muted Text           | Grey         | `#9B9691` |
