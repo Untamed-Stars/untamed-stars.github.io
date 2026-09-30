@@ -39,7 +39,7 @@ body {
 ================================ */
 
 nav {
-    height: 100px;
+    height: 150px;
     padding: 0 3rem;
 
     display: flex;
@@ -75,13 +75,20 @@ nav {
 }
 
 .nav-title {
-    color: var(--text) !important;
+    color: var(--text);
+    text-decoration: none;
+
+    font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 0.12rem;
+
+    margin-left: 2rem;
+
+    transition: color 0.2s ease;
 }
 
 .nav-title:hover {
-    color: var(--orange-bright) !important;
+    color: var(--orange-bright);
 }
 
 
