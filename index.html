@@ -16,10 +16,30 @@
     <header>
       <nav>
         <div class="brand">
-          <a href="https://untamed-stars.github.io" class="nav-title">
-            <span>UNTAMED</span>
-            <img src="logo2.png" class="logo" alt="Untamed Stars game studio logo">
-            <span>STARS</span>
+          <svg class="brand-text" viewBox="0 0 300 300">
+            <defs>
+              <path
+                id="text-circle"
+                d="M 150,150
+                   m -105,0
+                   a 105,105 0 1,1 210,0
+                   a 105,105 0 1,1 -210,0"
+              />
+            </defs>
+
+            <text>
+              <textPath href="#text-circle" startOffset="50%">
+                UNTAMED STARS
+              </textPath>
+            </text>
+          </svg>
+
+          <a href="https://untamed-stars.github.io">
+            <img
+              src="logo2.png"
+              class="logo"
+              alt="Untamed Stars game studio logo"
+            >
           </a>
         </div>
         
