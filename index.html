@@ -16,31 +16,39 @@
     <header>
       <nav>
         <div class="brand">
-          <svg class="brand-text" viewBox="0 0 300 300">
-            <defs>
-              <path
-                id="text-circle"
-                d="M 150,150
-                   m -105,0
-                   a 105,105 0 1,1 210,0
-                   a 105,105 0 1,1 -210,0"
-              />
-            </defs>
+            <svg class="brand-text" viewBox="0 0 240 240">
+                <defs>
+                    <path
+                      id="top-curve"
+                      d="M 35,115 A 85,85 0 0,1 205,115"
+                    />
 
-            <text>
-              <textPath href="#text-circle" startOffset="50%">
-                UNTAMED STARS
-              </textPath>
-            </text>
-          </svg>
+                    <path
+                        id="bottom-curve"
+                        d="M 35,125 A 85,85 0 0,0 205,125"
+                    />
+                </defs>
 
-          <a href="https://untamed-stars.github.io">
-            <img
-              src="logo2.png"
-              class="logo"
-              alt="Untamed Stars game studio logo"
-            >
-          </a>
+                <text>
+                    <textPath href="#top-curve" startOffset="50%">
+                        UNTAMED
+                    </textPath>
+                </text>
+
+                <text>
+                    <textPath href="#bottom-curve" startOffset="50%">
+                          STARS
+                    </textPath>
+                </text>
+            </svg>
+
+            <a href="https://untamed-stars.github.io">
+                <img
+                    src="logo2.png"
+                    class="logo"
+                    alt="Untamed Stars game studio logo"
+                >
+            </a>
         </div>
         
         <div class="nav-links">
