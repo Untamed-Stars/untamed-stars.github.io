@@ -154,14 +154,38 @@ h2 {
 
 
 /* ================================
-   PANELS
+   PANELS & CARD-BACKER
 ================================ */
+
+.card-backer {
+   padding: 2rem 3rem;
+}
+
+.cushioning {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
 
 .panel {
     background: var(--panel);
 
     border: 1px solid #303030;
     border-radius: 4px;
+
+    width: 300px;
+    min-height: 200px;
+
+    padding: 2rem;
+}
+
+.feature-panel {
+    background: var(--panel);
+
+    border: 1px solid #303030;
+    border-radius: 4px;
+
+    width: 100%;
+    min-height: 350px;
 
     padding: 2rem;
 }
