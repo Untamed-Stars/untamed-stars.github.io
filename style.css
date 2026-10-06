@@ -216,7 +216,21 @@ h2 {
     line-height: 1.7;
 }
 
+#hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
 
+    background: rgba(12, 12, 12, 0.45);
+
+    z-index: 1;
+}
+
+.herologo,
+.herotext {
+    position: relative;
+    z-index: 2;
+}
 
 
 /* ================================
