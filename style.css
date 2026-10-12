@@ -169,19 +169,18 @@ h2 {
 
 .panel {
     background: var(--panel);
-
     border: 1px solid #303030;
     border-radius: 4px;
 
-    width: 300px;
+    width: 100%;
     min-height: 200px;
 
     padding: 2rem;
 }
 
+
 .feature-panel {
     background: var(--panel);
-
     border: 1px solid #303030;
     border-radius: 4px;
 
@@ -190,6 +189,7 @@ h2 {
 
     padding: 2rem;
 }
+
 
 /* ================================
    HERO
