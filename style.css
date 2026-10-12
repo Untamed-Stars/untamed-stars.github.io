@@ -289,3 +289,37 @@ footer {
 
     text-align: center;
 }
+
+
+/* ===========================================
+   RESPONSIVE PANELS - DO NOT ADD ANYTHING BELOW
+============================================== */
+
+/* Tablets */
+@media (max-width: 900px) {
+    .cushioning {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+    .card-backer {
+        padding: 1.5rem 1rem;
+    }
+
+    .cushioning {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .panel {
+        padding: 1.5rem;
+    }
+
+    .feature-panel {
+        padding: 1.5rem;
+        min-height: 250px;
+    }
+}
+
