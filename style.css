@@ -276,7 +276,7 @@ h2 {
 ================================ */
 
 p {
-    color: var(--muted);
+    color: var(--text);
     line-height: 1.7;
 }
 
