@@ -195,16 +195,21 @@ h2 {
 
 
 .feature-panel {
+    display: flex;
+
+    
     grid-column: 1 / -1;
    
     background: var(--panel);
     border: 1px solid #303030;
-    border-radius: 4px;
+    border-radius: 10px;
 
     width: 100%;
     min-height: 350px;
 
     padding: 2rem;
+
+    align-items: 
 }
 
 
@@ -296,6 +301,10 @@ p {
 .concept-image {
    width: 50%;
    height: auto;
+}
+
+.concept-image p {
+  flex: 1;
 }
 
 /* ================================
