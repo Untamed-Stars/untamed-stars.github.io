@@ -107,7 +107,13 @@ h3 {
     letter-spacing: 0.04rem;
 }
 
+h2,
+h3 {
+    color: #9a5835;
+}
+
 h1 {
+    color: #d8894d;
     font-size: 3rem;
 }
 
