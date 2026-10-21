@@ -283,8 +283,16 @@ p {
 .small-text {
     font-size: 0.8rem;
     color: var(--muted);
-}
+}      
 
+/* ================================
+   GUIDING LIGHT FEATURE PANEL
+================================ */
+
+.concept-image {
+   width: 200px;
+   height: auto;
+}
 
 /* ================================
    FOOTER
