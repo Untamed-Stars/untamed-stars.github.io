@@ -182,6 +182,14 @@ h2 {
    justify-items: center;
 }
 
+.flex-cushioning {
+   display: flex;
+   gap: 20px;
+
+   justify-content: center;
+   justify-items: center;
+}
+
 .panel {
     background: var(--panel);
     border: 1px solid #303030;
@@ -194,10 +202,7 @@ h2 {
 }
 
 
-.feature-panel {
-    display: flex;
-
-    
+.feature-panel {    
     grid-column: 1 / -1;
    
     background: var(--panel);
@@ -208,8 +213,6 @@ h2 {
     min-height: 350px;
 
     padding: 2rem;
-
-    align-items: 
 }
 
 
