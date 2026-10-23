@@ -132,9 +132,9 @@ h2 {
 ================================ */
 
 hr {
-    background-color: var(--orange);
+    background-color: var(--muted);
     height: 2px;
-   border: none;
+    border: none;
 }
 
 /* ================================
