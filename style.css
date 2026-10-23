@@ -127,6 +127,14 @@ h2 {
     font-size: 1.8rem;
 }
 
+/* ================================
+   HORIZONTAL RULES
+================================ */
+
+hr {
+    background-color: var(--orange);
+    height: 2px;
+}
 
 /* ================================
    ACCENT
