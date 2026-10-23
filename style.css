@@ -134,6 +134,7 @@ h2 {
 hr {
     background-color: var(--orange);
     height: 2px;
+   border: none;
 }
 
 /* ================================
