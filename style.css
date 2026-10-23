@@ -127,6 +127,11 @@ h2 {
     font-size: 1.8rem;
 }
 
+image-subtitle {
+   color: var(--muted);
+   
+}
+
 /* ================================
    HORIZONTAL RULES
 ================================ */
@@ -195,10 +200,22 @@ hr {
    display: flex;
    gap: 20px;
 
+   align-items: flex-start;
    justify-content: center;
    justify-items: center;
 
    padding: 2rem;
+}
+
+.left-column {
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+.right-column {
+   
 }
 
 .panel {
